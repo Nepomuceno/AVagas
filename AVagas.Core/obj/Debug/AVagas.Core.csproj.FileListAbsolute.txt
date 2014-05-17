@@ -1,0 +1,5 @@
+D:\Curso\AVagas\AVagas.Core\bin\Debug\AVagas.Core.dll
+D:\Curso\AVagas\AVagas.Core\bin\Debug\AVagas.Core.pdb
+D:\Curso\AVagas\AVagas.Core\obj\Debug\AVagas.Core.csprojResolveAssemblyReference.cache
+D:\Curso\AVagas\AVagas.Core\obj\Debug\AVagas.Core.dll
+D:\Curso\AVagas\AVagas.Core\obj\Debug\AVagas.Core.pdb

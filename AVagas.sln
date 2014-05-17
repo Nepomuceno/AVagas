@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AVagas", "AVagas\AVagas.csproj", "{203E301C-F56E-4D34-9693-25F5BA8F0375}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AVagas.Core", "AVagas.Core\AVagas.Core.csproj", "{7C469DDC-0AB5-4681-ABEE-B7D25D7B94C9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{203E301C-F56E-4D34-9693-25F5BA8F0375}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{203E301C-F56E-4D34-9693-25F5BA8F0375}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{203E301C-F56E-4D34-9693-25F5BA8F0375}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{203E301C-F56E-4D34-9693-25F5BA8F0375}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C469DDC-0AB5-4681-ABEE-B7D25D7B94C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C469DDC-0AB5-4681-ABEE-B7D25D7B94C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C469DDC-0AB5-4681-ABEE-B7D25D7B94C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C469DDC-0AB5-4681-ABEE-B7D25D7B94C9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
