@@ -19,8 +19,8 @@ namespace AVagas.Core.Data
                     {
                         Coberto = true,
                         Descricao = "Vaga coberta disponivel",
-                        Endereco = "Rua 1",
-                        Foto = "",
+                        Endereco = "Rua Paracatu 1300 vaga 13",
+                        Foto = "http://placehold.it/320x250",
                         Id = 1,
                         Disponivel = true,
                         Valor = 1.0m
@@ -29,8 +29,8 @@ namespace AVagas.Core.Data
                     {
                         Coberto = false,
                         Descricao = "Vaga descoberta indisponivel",
-                        Endereco = "Rua 1",
-                        Foto = "",
+                        Endereco = "Rua paraguassu 83 vaga 23",
+                        Foto = "http://placehold.it/320x250",
                         Id = 1,
                         Disponivel = false,
                         Valor = 1.0m

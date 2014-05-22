@@ -61,3 +61,6 @@ D:\Curso\AVagas\AVagas\obj\Debug\AVagas.dll
 D:\Curso\AVagas\AVagas\obj\Debug\AVagas.pdb
 D:\Curso\AVagas\AVagas\bin\AVagas.Core.dll
 D:\Curso\AVagas\AVagas\bin\AVagas.Core.pdb
+D:\Curso\AVagas\AVagas\bin\v8\Noesis.Javascript.x64.dll
+D:\Curso\AVagas\AVagas\bin\v8\Noesis.Javascript.x86.dll
+D:\Curso\AVagas\AVagas\bin\TypeScriptBundleTransform.dll

@@ -19,20 +19,10 @@ namespace AVagas.Controllers
         public HomeController()
         {
         }
-        public async Task<ActionResult> Index()
+        public ActionResult Index()
         {
-            List<Vaga> model = new List<Vaga>();
-            using (var client = new HttpClient())
-            {
-                var url = string.Format("{0}{1}",ConfigurationManager.AppSettings["ApiUrl"],"/api/Vagas");
-                var result = await client.GetAsync(url);
-                if (result.IsSuccessStatusCode)
-                {
-                    var content = await result.Content.ReadAsStringAsync();
-                    model = JsonConvert.DeserializeObject<List<Vaga>>(content);
-                }
-            }
-            return View(model);
+            var url = string.Format("{0}{1}", ConfigurationManager.AppSettings["ApiUrl"], "/api/Vagas");
+            return View((object)url);
         }
 
         public ActionResult About()

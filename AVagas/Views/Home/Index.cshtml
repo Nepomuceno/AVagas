@@ -1,21 +1,21 @@
-﻿@model IEnumerable<AVagas.Core.Model.Vaga>
-
+﻿@model string
 @{
     ViewBag.Title = "A Vagas";
 }
 
-<div class="vagas">
+<div id="container" class="vagas">
     <h1>Vagas</h1>
-    <ul>
-        @foreach (var vaga in Model)
-        {
-            <li style="color: @Html.Raw(vaga.Disponivel ? "green": "red")">
-                <ul>
-                    <li>@vaga.Endereco</li>
-                    <li>@vaga.Descricao</li>
-                </ul>
-                <hr />
-            </li>
-        }
+    <ul style="list-style: none" id="vagaContainer" data-bind="foreach: vagas">
+        <li class="row">
+            <div class="col-md-4">
+                <img data-bind="attr:{src: Foto}" />
+            </div>
+            <div class="col-md-4">
+                <span data-bind="text: Descricao"></span><br/>
+                Endereço: <span class="label label-info" data-bind="text: Endereco"></span>
+            </div>
+            
+        </li>
     </ul>
+    <input type="hidden" id="urlVagas" value="@Model" />
 </div>
