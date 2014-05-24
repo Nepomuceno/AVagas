@@ -42,6 +42,18 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="SimpleInjector">
+      <HintPath>..\packages\SimpleInjector.2.5.0\lib\net45\SimpleInjector.dll</HintPath>
+    </Reference>
+    <Reference Include="SimpleInjector.Diagnostics">
+      <HintPath>..\packages\SimpleInjector.2.5.0\lib\net45\SimpleInjector.Diagnostics.dll</HintPath>
+    </Reference>
+    <Reference Include="SimpleInjector.Extensions.ExecutionContextScoping">
+      <HintPath>..\packages\SimpleInjector.Extensions.ExecutionContextScoping.2.5.0\lib\net45\SimpleInjector.Extensions.ExecutionContextScoping.dll</HintPath>
+    </Reference>
+    <Reference Include="SimpleInjector.Integration.WebApi">
+      <HintPath>..\packages\SimpleInjector.Integration.WebApi.2.5.0\lib\net45\SimpleInjector.Integration.WebApi.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Drawing" />
@@ -97,6 +109,9 @@
     </Reference>
     <Reference Include="TypeScriptBundleTransform">
       <HintPath>..\packages\TypeScriptBundleTransform.1.0.0.8\lib\net40\TypeScriptBundleTransform.dll</HintPath>
+    </Reference>
+    <Reference Include="WebActivator">
+      <HintPath>..\packages\WebActivator.1.4.4\lib\net40\WebActivator.dll</HintPath>
     </Reference>
     <Reference Include="WebGrease">
       <Private>True</Private>
@@ -171,6 +186,7 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\IdentityConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="App_Start\SimpleInjectorWebApiInitializer.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Controllers\AccountController.cs" />
@@ -255,6 +271,10 @@
     <None Include="Project_Readme.html" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\AVagas.Core.Data.EF\AVagas.Core.Data.EF.csproj">
+      <Project>{5c3531ef-53db-40c4-8c39-b4abc052a58b}</Project>
+      <Name>AVagas.Core.Data.EF</Name>
+    </ProjectReference>
     <ProjectReference Include="..\AVagas.Core\AVagas.Core.csproj">
       <Project>{7c469ddc-0ab5-4681-abee-b7d25d7b94c9}</Project>
       <Name>AVagas.Core</Name>

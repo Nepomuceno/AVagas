@@ -14,16 +14,20 @@
 
         constructor(urlVagas: string) {
             var instance = this;
-            $.get(urlVagas, (data) => {
-                data.forEach(vaga => {
-                    instance.vagas.push(new
-                        Vaga(
-                        ko.observable(vaga.Descricao),
-                        ko.observable(vaga.Dispinibilidade),
-                        ko.observable(vaga.Endereco),
-                        ko.observable(vaga.Foto)));
+            navigator.geolocation.getCurrentPosition(p => {
+                urlVagas = urlVagas + '/Perto/'+p.coords.latitude+'/'+ p.coords.longitude +'/'
+                $.get(urlVagas, (data) => {
+                    data.forEach(vaga => {
+                        instance.vagas.push(new
+                            Vaga(
+                            ko.observable(vaga.Descricao),
+                            ko.observable(vaga.Dispinibilidade),
+                            ko.observable(vaga.Endereco),
+                            ko.observable(vaga.Foto)));
+                    });
                 });
             });
+            
         }
         
     }

@@ -64,3 +64,14 @@ D:\Curso\AVagas\AVagas\bin\AVagas.Core.pdb
 D:\Curso\AVagas\AVagas\bin\v8\Noesis.Javascript.x64.dll
 D:\Curso\AVagas\AVagas\bin\v8\Noesis.Javascript.x86.dll
 D:\Curso\AVagas\AVagas\bin\TypeScriptBundleTransform.dll
+D:\Curso\AVagas\AVagas\bin\SimpleInjector.Diagnostics.dll
+D:\Curso\AVagas\AVagas\bin\SimpleInjector.dll
+D:\Curso\AVagas\AVagas\bin\SimpleInjector.Extensions.ExecutionContextScoping.dll
+D:\Curso\AVagas\AVagas\bin\SimpleInjector.Integration.WebApi.dll
+D:\Curso\AVagas\AVagas\bin\WebActivator.dll
+D:\Curso\AVagas\AVagas\bin\SimpleInjector.xml
+D:\Curso\AVagas\AVagas\bin\SimpleInjector.Diagnostics.xml
+D:\Curso\AVagas\AVagas\bin\SimpleInjector.Extensions.ExecutionContextScoping.xml
+D:\Curso\AVagas\AVagas\bin\SimpleInjector.Integration.WebApi.xml
+D:\Curso\AVagas\AVagas\bin\AVagas.Core.Data.EF.dll
+D:\Curso\AVagas\AVagas\bin\AVagas.Core.Data.EF.pdb

@@ -15,9 +15,12 @@
         function IndexViewModel(urlVagas) {
             this.vagas = ko.observableArray();
             var instance = this;
-            $.get(urlVagas, function (data) {
-                data.forEach(function (vaga) {
-                    instance.vagas.push(new Vaga(ko.observable(vaga.Descricao), ko.observable(vaga.Dispinibilidade), ko.observable(vaga.Endereco), ko.observable(vaga.Foto)));
+            navigator.geolocation.getCurrentPosition(function (p) {
+                urlVagas = urlVagas + '/Perto/' + p.coords.latitude + '/' + p.coords.longitude + '/';
+                $.get(urlVagas, function (data) {
+                    data.forEach(function (vaga) {
+                        instance.vagas.push(new Vaga(ko.observable(vaga.Descricao), ko.observable(vaga.Dispinibilidade), ko.observable(vaga.Endereco), ko.observable(vaga.Foto)));
+                    });
                 });
             });
         }

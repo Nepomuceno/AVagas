@@ -3,3 +3,8 @@ D:\Curso\AVagas\AVagas.Core\bin\Debug\AVagas.Core.pdb
 D:\Curso\AVagas\AVagas.Core\obj\Debug\AVagas.Core.csprojResolveAssemblyReference.cache
 D:\Curso\AVagas\AVagas.Core\obj\Debug\AVagas.Core.dll
 D:\Curso\AVagas\AVagas.Core\obj\Debug\AVagas.Core.pdb
+D:\Curso\AVagas\AVagas.Core\bin\Debug\AVagas.Core.dll.config
+D:\Curso\AVagas\AVagas.Core\bin\Debug\EntityFramework.dll
+D:\Curso\AVagas\AVagas.Core\bin\Debug\EntityFramework.SqlServer.dll
+D:\Curso\AVagas\AVagas.Core\bin\Debug\EntityFramework.xml
+D:\Curso\AVagas\AVagas.Core\bin\Debug\EntityFramework.SqlServer.xml
