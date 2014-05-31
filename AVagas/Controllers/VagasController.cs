@@ -22,7 +22,7 @@ namespace AVagas.Controllers
         [Route("")]
         public IQueryable<Vaga> GetVagas()
         {
-            return _aVagasContext.Vagas.Coberta().Disponiveis();
+            return _aVagasContext.Vagas;
         }
         [Route("{codVaga}")]
         public Vaga GetVaga(int codVaga)

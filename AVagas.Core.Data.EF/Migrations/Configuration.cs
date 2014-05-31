@@ -57,6 +57,46 @@ namespace AVagas.Core.Data.EF.Migrations
                     Valor = 3,
                     Localizacao = DbGeography.FromText("POINT(-19.9149056 -43.9539)"),
                     Endereco = "Rua paraguassu 83"
+                },
+                new Vaga()
+                {
+                    Descricao = "Vaga 5",
+                    Disponivel = true,
+                    Coberto = true,
+                    Valor = 3,
+                    Localizacao = DbGeography.FromText("POINT(-19.9149056 -43.9539)"),
+                    Endereco = "Rua paraguassu 83",
+                    Foto = "http://placecage.com/180/220"
+                },
+                new Vaga()
+                {
+                    Descricao = "Vaga 6",
+                    Disponivel = true,
+                    Coberto = false,
+                    Valor = 3,
+                    Localizacao = DbGeography.FromText("POINT(-19.9149056 -43.9539)"),
+                    Endereco = "Rua paraguassu 83",
+                    Foto = "http://placecage.com/200/220"
+                },
+                new Vaga()
+                {
+                    Descricao = "Vaga 7",
+                    Disponivel = true,
+                    Coberto = true,
+                    Valor = 3,
+                    Localizacao = DbGeography.FromText("POINT(-19.9149056 -43.9539)"),
+                    Endereco = "Rua paraguassu 83",
+                    Foto = "http://placecage.com/200/200"
+                },
+                new Vaga()
+                {
+                    Descricao = "Vaga 8",
+                    Disponivel = false,
+                    Coberto = false,
+                    Valor = 3,
+                    Localizacao = DbGeography.FromText("POINT(-19.9149056 -43.9539)"),
+                    Endereco = "Rua paraguassu 83",
+                    Foto = "http://placecage.com/200/210"
                 }
                 );
 

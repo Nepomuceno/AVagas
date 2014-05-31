@@ -27,6 +27,8 @@ namespace AVagas.Core.Data.Filters
         public static IQueryable<Vaga> PertoDe(
             this IQueryable<Vaga> current, string latitude,string longitude)
         {
+            latitude = latitude.Replace(',', '.');
+            longitude = longitude.Replace(',', '.');
             var location =
                 DbGeography.FromText
                 (string.Format("POINT({0} {1})", latitude, longitude));
